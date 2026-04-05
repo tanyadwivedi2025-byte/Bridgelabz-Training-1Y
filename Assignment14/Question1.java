@@ -1,0 +1,21 @@
+package Assignment14;
+
+import java.util.Scanner;
+
+public class Question1 {
+    public static class question1 {
+        public void primitiveToWrapper(){
+            Scanner s=new Scanner(System.in);
+            System.out.println("Enter an integer");
+            int a=s.nextInt();
+            Integer b;
+            b=a;
+            System.out.println("Primitive Datatype : "+a);
+            System.out.println("Integer object : "+b);
+        }
+        public static void main(String[] args){
+            question1 q1=new question1();
+            q1.primitiveToWrapper();
+        }
+    }
+}
